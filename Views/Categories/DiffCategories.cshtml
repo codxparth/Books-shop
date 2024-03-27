@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "DiffCategories";
+}
+
+<h1>DiffCategories</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" width="400px" height="420px" src="~/images/Brene Brown book.jpeg">
+                <div class="card-body">
+                    <h5 class="card-title">Physics</h5>
+                    <p class="card-text">₹ 500</p>
+                    <a  class="btn btn-primary">More Details</a>
+                    <a href="#" class="btn btn-primary">Add To Cart</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" width="400px" height="420px" src="~/images/Emily herny book.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Physics</h5>
+                    <p class="card-text">₹ 700</p>
+                    <a asp-controller="Categories" asp-action="Details" class="btn btn-primary">More Details</a>
+                    <a href="#" class="btn btn-primary">Add To Cart</a>
+
+                </div>
+            </div>
+        </div>
+</div>
+</div>

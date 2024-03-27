@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center">Book Details</h1>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12 text-center">
+                    <img height="300px" width="300px"  src="~/images/Emily herny book.jpg"  class="img-fluid" alt="Book Image">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <h2 class="mt-4">Book Description</h2>
+                    <p>
+                        Lorem Ipsum is available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. But the majority have suffered alteration in some form, by injected humour.
+                    </p>
+                    <h2 class="mt-4">
+                        ₹399
+                    </h2>
+                    <button  class="btn btn-primary text-black btn-lg mt-3">Add To Cart>
+                        <a asp-controller="Home" asp-action="Cart" /></a>
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
